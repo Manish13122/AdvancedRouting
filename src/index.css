@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+body{
+  background: linear-gradient(90deg, rgb(0, 183, 255), rgb(0, 191, 255),rgb(162, 0, 255));
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-body {
+  padding: 16px;
+  background-color: #fff;
+  color: linear-gradient(90deg, rgb(0, 183, 255), rgb(0, 191, 255),rgb(162, 0, 255));
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color:linear-gradient(90deg, rgb(0, 183, 255), rgb(0, 191, 255),rgb(162, 0, 255));
+}
+
+.card-text {
+  font-size: 1.25rem;
+  color: linear-gradient(90deg, rgb(0, 183, 255), rgb(0, 191, 255),rgb(162, 0, 255));
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.card {
+  animation: fadeIn 1s ease-in;
+}
+h1,h3,.btn-group,.navbar-nav,.btn,.navbar-toggler {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 2s ease-in-out;
+}
