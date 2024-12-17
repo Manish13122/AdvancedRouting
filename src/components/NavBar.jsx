@@ -8,7 +8,13 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg p-4">
       <div className="container-fluid">
         {/* Brand */}
-        <h3 className='brand'>BuyHive</h3>
+        <h4 className='brand '><span><img 
+          src="./src/assets/icon.jpg" 
+          alt="Logo" 
+          className="img-fluid rounded" 
+          style={{ width: '30px', height: '30px' }} 
+        />
+        </span> BuyHive</h4>
 
         {/* Toggler Button for Small Screens */}
         <button 

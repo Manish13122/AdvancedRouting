@@ -9,6 +9,12 @@
 body{
   background: linear-gradient(90deg, rgb(0, 183, 255), rgb(0, 191, 255),rgb(162, 0, 255));
 }
+.brand {
+  font-weight: bold;  
+  color: #333; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  
+}
 .card {
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -52,7 +58,7 @@ body{
 .card {
   animation: fadeIn 1s ease-in;
 }
-h1,h3,.btn-group,.navbar-nav,.btn,.navbar-toggler {
+h1,h3,.btn-group,.navbar-nav,.btn,.navbar-toggler,.brand {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   animation: fadeIn 2s ease-in-out;
 }

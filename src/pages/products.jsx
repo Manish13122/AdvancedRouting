@@ -57,7 +57,7 @@ const Products = () => {
             <h3 className='he'>Sort By</h3>
         </div>
     <div className="btn-group px-1 mb-3" role="group" aria-label="Basic example">
-      <button type="button" onClick={()=>HandleFilter("sort","asc")} className="btn btn-primary">Low</button>
+      <button type="button" onClick={()=>HandleFilter("sort","asc")} className="btn btn-dark">Low</button>
       <button type="button" onClick={()=>HandleFilter("sort","des")} className="btn btn-secondary">High</button>
     </div>
     </div>
